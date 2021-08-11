@@ -1,0 +1,276 @@
+.main {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.btn-sm {
+    width: 110px;
+}
+
+.call-us-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". item .";
+}
+
+.call-us-item {
+    grid-area: item;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: "Information Customer Extras My"
+                         "About Contact Brands Account"
+                         "Delivery Returns Gift Order"
+                         "Privacy Site Affiliates  Wish"
+                         "Terms . Special Newsletter"
+                         
+}
+
+.Information {
+    grid-area: Information;
+}
+
+.About {
+    grid-area: About;
+}
+
+.About:hover {
+    font-weight: bold !important;
+}
+
+.Delivery {
+    grid-area: Delivery;
+}
+
+.Delivery:hover {
+    font-weight: bold !important;
+}
+
+.Privacy {
+    grid-area: Privacy;
+}
+
+.Privacy:hover {
+    font-weight: bold !important;
+}
+
+.Terms {
+    grid-area: Terms;
+}
+
+.Terms:hover {
+    font-weight: bold !important;
+}
+
+.Customer {
+    grid-area: Customer;
+}
+
+.Contact {
+    grid-area: Contact;
+}
+
+.Contact:hover {
+    font-weight: bold !important;
+}
+
+.Returns {
+    grid-area: Returns;
+}
+
+.Returns:hover {
+    font-weight: bold !important;
+}
+
+.Site {
+    grid-area: Site;
+}
+
+.Site:hover {
+    font-weight: bold !important;
+
+}
+
+.Extras {
+    grid-area: Extras;
+}
+
+.Brands {
+    grid-area: Brands;
+}
+
+.Brands:hover {
+    font-weight: bold !important;
+}
+
+.Gift {
+    grid-area: Gift;
+}
+
+.Gift:hover {
+    font-weight: bold !important;
+}
+
+.Affiliates {
+    grid-area: Affiliates;
+}
+
+.Affiliates:hover {
+    font-weight: bold !important;
+}
+
+.Special {
+    grid-area: Special;
+}
+
+.Special:hover {
+    font-weight: bold !important;
+}
+
+.My {
+    grid-area: My;
+}
+
+.Account {
+    grid-area: Account;
+}
+
+.Account:hover {
+    font-weight: bold !important;
+}
+
+.Order {
+    grid-area: Order;
+}
+
+.Order:hover {
+    font-weight: bold !important;
+}
+
+.Wish {
+    grid-area: Wish;
+}
+
+.Wish:hover {
+    font-weight: bold !important;
+}
+
+.Newsletter {
+    grid-area: Newsletter;
+}
+
+.Newsletter:hover {
+    font-weight: bold !important;
+}
+
+/* main section*/
+
+.content-section {
+    display: grid;
+    grid-template-rows: 400px 150px auto ;
+    gap: 20px;
+}
+
+.catalog {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    
+}
+
+.catalog-menu {
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.big-image {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+    object-position: top;
+}
+
+.other-stuff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.handbag {
+    background-image: url(../images/handbag.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.watch {
+    background-image: url(../images/watch.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.shoes {
+    background-image: url(../images/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;    
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    gap: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-item:hover {
+    color: white !important;
+}
+
+.handbag:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.watch:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.shoes:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.btn:hover {
+    background-color: grey !important;
+}
+
+.Powered {
+    padding-left: 36px;
+    height: 48px;
+    display: grid;
+    align-items: center;
+}
