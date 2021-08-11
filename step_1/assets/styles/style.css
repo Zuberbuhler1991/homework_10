@@ -1,0 +1,94 @@
+.content-section {
+    display: grid;
+    grid-template-rows: 400px 150px auto ;
+    gap: 20px;
+}
+
+.catalog {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    
+}
+
+.catalog-menu {
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.big-image {
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+    object-position: top;
+}
+
+.other-stuff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.handbag {
+    background-image: url(../images/handbag.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.watch {
+    background-image: url(../images/watch.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.shoes {
+    background-image: url(../images/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;    
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    gap: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-item:hover {
+    color: white !important;
+}
+
+.handbag:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.watch:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.shoes:hover .link-light {
+    text-decoration: underline !important;
+}
+
+.btn:hover {
+    background-color: grey !important;
+}
